@@ -1,0 +1,134 @@
+body {
+	background-color: #ECECEC!important;
+}
+
+header {
+	box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+}
+
+footer {
+	box-shadow: 0px -4px 4px 0px rgb(0 0 0 / 25%);
+}
+
+/*Шапка*/
+.auth {
+	background-color: #DBDBDB;
+	padding: 10px;
+}
+
+.auth_buttons a {
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+	background-color: #17A2B8;
+	color: white;
+}
+
+.auth_buttons a:hover,
+.auth_buttons a:active {
+	background-color: #0F6D7C!important;
+	border: 1px solid #0F6D7C!important;
+	color: white!important;
+}
+
+/*Главная страница*/
+.counter {
+	background-color: #DBDBDB;
+	font-size: 24px;
+}
+
+.counter p:nth-child(2) {
+	font-size: 32px;
+}
+
+.leave_request a,
+.look_request a,
+.leave_request button {
+	background-color: #21D049;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	transition: 0.4s;
+}
+
+.look_request a {
+	background-color: #6C757D;
+}
+
+.leave_request,
+.leave_request a,
+.leave_request button,
+.look_request a {
+	color: white;
+	font-size: 29px;
+}
+
+.leave_request a:hover,
+.leave_request a:active,
+.leave_request button:hover,
+.leave_request button:active {
+	background-color: #1CB33F!important;
+	box-shadow: none!important;
+	color: white!important;
+}
+
+.look_request a:hover,
+.look_request a:active {
+	background-color: #4C5359!important;
+	box-shadow: none!important;
+	color: white!important;
+}
+
+.require .require_text:nth-child(2) {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.require_text {
+	background-color: white;
+}
+
+.require_text span {
+	font-size: 14px;
+	color: #232323;
+}
+
+.request_photo_on {
+	display: block;
+	max-height: 400px;
+	transition: 0.3s;
+}
+
+.request_photo_off {
+	display: none;
+}
+
+.request_photo_on:hover {
+	display: none;
+}
+
+.request_photo_off:hover {
+	display: block;
+}
+
+/*Страница пользователя*/
+.table {
+	border-color: #3D3D3D!important;
+}
+
+.table_button a,
+.table_filter a {
+	color: #3D3D3D;
+}
+
+.table_button a:hover,
+.table_filter a:hover {
+	text-decoration: none;
+}
+
+/*Страница добавления новой заявки*/
+.form-control {
+	background-color: #ECECEC!important;
+	border: 2px solid #C0C0C0!important;
+	border-radius: 0px!important;
+}
+
+.reg_msg {
+	font-weight: bold;
+}
